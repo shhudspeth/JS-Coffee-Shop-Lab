@@ -79,3 +79,7 @@ h2 {
   display: grid;
   grid-template: 'total place' auto / 1fr 1fr;
 }
+
+button[disabled="true"] {
+	cursor: default;
+}
